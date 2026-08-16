@@ -9,7 +9,7 @@ const academicRoutes = require('./routes/academic');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/campusnotes';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://sawhuman2008_db_user:XEGKvT0HN6Nx5ieh@campusnotes.4wtv3rr.mongodb.net/?appName=campusnotes';
 
 // Middleware
 app.use(cors({ origin: process.env.CLIENT_URL || '*', credentials: true }));
